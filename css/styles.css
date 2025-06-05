@@ -413,19 +413,19 @@ body {
 
 .footer-container {
   display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  align-items: baseline; /* ✅ align-items: baseline */
 }
 
 .footer-logo-box {
   max-width: 264px;
+  margin-right: 120px; /* ✅ margin-right: 120px */
 }
 
 .footer-text {
   margin-top: 16px;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.5; /* ✅ line-height: 1.5 */
+  letter-spacing: 0.02em; /* ✅ letter-spacing: 0.02em */
   color: #f4f4fd;
 }
 
